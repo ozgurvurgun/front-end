@@ -1,2 +1,2 @@
 # websites
-this repository contains the frontend source code of the websites I develop.
+This repository contains the front-end source code of the websites and components I've developed.
