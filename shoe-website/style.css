@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #1e2227;
+  color: #fff;
+}
+/*! navbar start */
+nav {
+  background-color: #1e2227;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 8%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.logo {
+  cursor: pointer;
+  width: 120;
+}
+nav .nav-links {
+  display: flex;
+  column-gap: 20px;
+}
+nav .nav-links a {
+  color: white;
+  font-size: 26px;
+}
+/*! navbar end */
